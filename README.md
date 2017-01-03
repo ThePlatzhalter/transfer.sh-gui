@@ -10,4 +10,4 @@ Please don't be too harsh on me since I began coding Go just recently, so this c
 Also, I'm not responsible for anything you do using my code.
 
 # Notes
-- Make sure you compile it using `go build -ldflags="-H windowsgui" github.com/PlatzhalterDE/transfer.sh-gui` to get rid of the cmd prompt
+- Make sure you compile it using `go build -ldflags="-H windowsgui" github.com/ThePlatzhalter/transfer.sh-gui` to get rid of the cmd prompt
