@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"path/filepath"
 	"time"
 
 	"github.com/atotto/clipboard"
@@ -64,7 +65,7 @@ func main() {
 						}
 					},
 				}
-				req, err := http.NewRequest("PUT", "https://transfer.sh/"+file.Name(), pr)
+				req, err := http.NewRequest("PUT", "https://transfer.sh/"+filepath.Base(fileName), pr)
 				if err != nil {
 					walk.MsgBox(main, "Error", err.Error(), walk.MsgBoxOK)
 					os.Exit(1)
