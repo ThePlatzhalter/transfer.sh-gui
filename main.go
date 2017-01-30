@@ -18,7 +18,7 @@ func main() {
 	var main *walk.MainWindow
 
 	mainWindow := MainWindow{
-		Title:   "Test",
+		Title:   "Uploading...",
 		MinSize: Size{Width: 600, Height: 50},
 		Layout:  VBox{},
 		Children: []Widget{
